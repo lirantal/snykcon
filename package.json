@@ -1,0 +1,29 @@
+{
+  "name": "snykcon",
+  "version": "1.0.2",
+  "description": "A CLI for Snyk's SnykCon 2020 DevSecOps and Developer-first security conference",
+  "bin": {
+    "snykcon": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Who need tests anyway? ¯\\_(ツ)_/¯ \" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lirantal/snykcon.git"
+  },
+  "keywords": ["snykcon", "snyk", "devsecops", "conf", "conference", "security"],
+  "author": {
+    "name": "Liran Tal",
+    "email": "liran.tal@gmail.com",
+    "url": "https://github.com/lirantal"
+  },
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/lirantal/snykcon/issues"
+  },
+  "homepage": "https://github.com/lirantal/snykcon#readme",
+  "dependencies": {
+    "chalk": "^4.1.0"
+  }
+}
