@@ -18,6 +18,11 @@
     "email": "liran.tal@gmail.com",
     "url": "https://github.com/lirantal"
   },
+  "publishConfig": {
+    "provenance": true,
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  },
   "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/lirantal/snykcon/issues"
