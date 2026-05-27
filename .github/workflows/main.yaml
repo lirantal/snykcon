@@ -2,8 +2,12 @@ name: main
 
 on: [push]
 
+permissions: {}
+
 jobs:
   build:
+    permissions:
+      contents: read
     runs-on: ubuntu-latest
     strategy:
       matrix:
@@ -22,6 +26,9 @@ jobs:
           CI: true
 
   publish:
+    permissions:
+      contents: read
+      packages: write
     if: github.ref == 'refs/heads/main'
     needs: build
     runs-on: ubuntu-latest
