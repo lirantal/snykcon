@@ -1,9 +1,9 @@
 {
   "name": "snykcon",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A CLI for Snyk's SnykCon 2020 DevSecOps and Developer-first security conference",
   "bin": {
-    "snykcon": "./index.js"
+    "snykcon": "index.js"
   },
   "scripts": {
     "test": "echo \"Who need tests anyway? ¯\\_(ツ)_/¯ \" && exit 0"
