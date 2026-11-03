@@ -14,7 +14,14 @@
     "type": "git",
     "url": "git+https://github.com/lirantal/snykcon.git"
   },
-  "keywords": ["snykcon", "snyk", "devsecops", "conf", "conference", "security"],
+  "keywords": [
+    "snykcon",
+    "snyk",
+    "devsecops",
+    "conf",
+    "conference",
+    "security"
+  ],
   "author": {
     "name": "Liran Tal",
     "email": "liran.tal@gmail.com",
@@ -40,5 +47,6 @@
   "engines": {
     "node": ">=24.0.0",
     "npm": ">=11.10.0"
-  }
+  },
+  "packageManager": "npm@11.21.0"
 }
